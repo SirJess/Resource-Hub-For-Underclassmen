@@ -1,39 +1,69 @@
 <!DOCTYPE html>
 
 <html>
-
     <head>
         <title>Resource Hub</title>
         <link href="style.css" rel="stylesheet"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="script.js"></script>
     </head>
 
     <body>
         <header>
             <nav>
-                <h2>Home</h2>
+            
             </nav>
-            <h1>Welcome to Jessie's resource hub</h1>
+            <h1>Welcome to Jessie's Resource Hub</h1>
+            <button type="button" onclick="changeColor()">Click to See The Magic</button>
         </header>
-
-        
         <section>
-            <p>
-                This site includes resources, programs, and internships that are suited for underclassmen. 
+            <p class="introduction" id="intro">
+                I am a rising sophomore learning computer science. I came into this industry not knowing much and always felt like I was behind and can't compete with the others. This site includes resources, programs, and internships that are suited for underclassmen. These helped me both learn skills needed to land an internship and also allow me to explore the different types of jobs in this field. 
             </p>
         </section>
 
-        <section>
-            <h3>Programs</h3>
-            <ul class="unorderedList">
-                <li>
-                    <a href="https://www.opcollege.org" target="_blank">Opportunity College Web Develpment</a>
-                </li>
-                <li>
-                    <a href="https://www.codepath.org/" target="_blank">Codepath</a>
-                </li>
-            </ul>
-        </section>
+            <section>
+                <h3>Programs</h3>
+                <div>
+                    <p class="header"><a href="https://www.opcollege.org" target="_blank">Opportunity College Web Develpment</a></p>
+                    <p class="box">This is a free online program teaching you Web Develpment from scratch. I really like this program because they cover not only the technical skills needed for the workforce but also include many soft skills that are useful in the workplace. I was in the part time program and I felt that the pacing was a bit fast and the summer one is even more intensive. This program is a lot of work and you really need to be self deciplined and dedicated or you will fall behind. Overall a 10/10 program because it gets you career ready.</p>
+                </div>
+                <div>
+                    <p class="header"><a href="https://www.codepath.org/" target="_blank">Codepath</a></p>
+                    <p class="box">This is a free online program for college students. They offer many different semester long sessions focusing on different fields. They have many different programs including: Cybersecruity, Web Development, Intro to Software Engineering with Python, Interview Prep and many more. These programs usually have a lot more people so expect a bunch of self studying. This is good because they offer many different levels of the sessions based on your skill level. Being in Codepath also gives you access to all their career resources like the Emerging Engineer Summit which allows you to meet a lot of big tech companies and connect with recruitors.  </p>
+                </div>
+            </section>
+
+            <section>
+                <h3>Resources for Web Development</h3>
+                <ul  class="box center">
+                    <li>
+                        <p class="white"><a href="https://www.w3schools.com/html/default.asp" target="_blank">HTML</a> - HTML stands for HyperText Markup Language. It is a standard markup language for web page creation. It allows the creation and structure of sections, paragraphs, and links using HTML elements (the building blocks of a web page) such as tags and attributes. </p>
+                    </li>
+                    <li>
+                        <p class="white"><a href="https://www.w3schools.com/css/default.asp" target="_blank">CSS</a> - CSS stands for Cascading Style Sheets language and is used to stylize elements written in a markup language such as HTML. It separates the content from the visual representation of the site. The relation between HTML and CSS is strongly tied together since HTML is the very foundation of a site and CSS is all of the aesthetics of an entire website.</p>
+                    </li>
+                    <li>
+                        <p class="white"><a href="https://www.w3schools.com/js/default.asp" target="_blank">Javascript</a> - JavaScript is a lightweight programming language commonly used by web developers to add dynamic interactions to web pages, applications, servers, and even games. It works seamlessly alongside HTML and CSS, complementing CSS in formatting HTML elements while providing user interaction, a capability that CSS alone lacks.</p>
+                    </li>
+                    <li>
+                        <p class="white"><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">Flexbox</a> - The flexbox or flexible box model in CSS is a one-dimensional layout model that has flexible and efficient layouts with distributed spaces among items to control their alignment structure ie., it is a layout model that provides an easy and clean way to arrange items within a container. Flexbox can be useful for creating small-scale layouts & is responsive and mobile-friendly.</p>
+                    </li>
+                    <li>
+                        <p class="white"><a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" target="_blank">Bootstrap</a> - Bootstrap is a free, open source front-end development framework for the creation of websites and web apps. Designed to enable responsive development of mobile-first websites, Bootstrap provides a collection of syntax for template designs.
+
+                        </p>
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Internship Opportunities</h3>
+                <p class="box"><a href="https://buildyourfuture.withgoogle.com/programs/step" target="_blank">Google Step</a> - STEP (Student Training in Engineering Program), formerly known as Engineering Practicum, is a 12-week internship for first and second-year undergraduate students with a passion for computer science. The internship program has a focus of providing development opportunities to students from groups historically underrepresented in tech, through technical training and professional development. Our unique internship offers the opportunity to work on a software project alongside other STEP interns and full-time Googlers, and provides the chance to bridge the gap between academic understanding and practical professional experience.</p>
+                <p class="box"><a href="https://careers.microsoft.com/v2/global/en/exploremicrosoft" target="_blank">Explore Microsoft Program</a> - Explore Microsoft is a 12-week summer internship program specifically designed for first and second-year college students. The program is rotational and allows you to gain experience in our different software engineering roles. It's also designed to give you hands-on experience with various tools and programming languages in the field of software development, and encourage you to pursue degrees in computer science, computer engineering, or related technical disciplines.</p>
+            </section>
+    </body>
+</html>
 
 
 
