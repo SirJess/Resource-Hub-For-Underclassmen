@@ -1,0 +1,20 @@
+h1 {
+    text-align: center;
+}
+
+nav h2 {
+    text-align: center;
+    background-image: url("internet2.avif");
+    height: 100px;
+    color: white;
+}
+
+section p {
+    text-align: center;
+    background-color: #D4F1F4;
+}
+
+.unorderedList {
+    font-family: Georgia;
+    color: red;
+}
