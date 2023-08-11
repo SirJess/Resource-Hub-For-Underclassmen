@@ -1,20 +1,47 @@
+* {
+    background-color: #F0FFFF;
+}
+
 h1 {
     text-align: center;
 }
 
-nav h2 {
+nav {
     text-align: center;
-    background-image: url("internet2.avif");
-    height: 100px;
+    background-image: url("images/internet2.avif");
+    height: 130px;
     color: white;
 }
 
-section p {
+
+h3 {
     text-align: center;
-    background-color: #D4F1F4;
+    font-size: x-large;
 }
 
-.unorderedList {
-    font-family: Georgia;
-    color: red;
+.header {
+    font-size: x-large;
 }
+
+.introduction {
+    margin: auto;
+    width: 80%;
+    font-size: large;
+}
+
+.white {
+    background-color: white;
+}
+
+
+.box {
+    font-family: Georgia;
+    background-color: white;
+    font-size: large;
+    border-radius: 25px;
+    padding: 20px;
+    border: solid;
+    display: inline-block;
+    text-align: center;
+}
+
